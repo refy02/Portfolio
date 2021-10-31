@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <title>TODO</title>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body onload = "DocumentLoaded()">
+<header class="fixed-width">
+    <a href="index.html">
+        <img src="img/todo.png">
+    </a>
+    <nav>
+        <a href="liste.html">App</a>
+        <a href="preise.html">Preise</a>
+    </nav>
+</header>
+<main class="fixed-width">
+
+    <div class="headline">
+        <h1>Offene Aufgaben</h1>
+        <a href="anlage.html">
+            <button>Neue Aufgabe anlegen</button>
+        </a>
+    </div>
+
+    <ul class="list-alltasks" id = "unordered_list">
+        <li id = "1">
+            <div class="list-task-checkbox">
+                <img onclick="Delete(event)" src="img/unchecked-box.png"/>
+            </div>
+            <div class="list-task-description">
+                <p class="list-task-title">Milch einkaufen</p>
+                <p class="list-task-notes">Unbedingt darauf achten, dass wir f&uuml;r Cappuchino Milch mit 3,5% Fettanteil brauchen.</p>
+            </div>
+            <div class="list-task-due">
+                <img src="img/faelligkeit.svg"/>
+                <label id="hours1">00</label>
+                <label id="colon1">:</label>
+                <label id="minutes1">00</label>
+                <label id="colon2">:</label>
+                <label id="seconds1">00</label>
+            </div>
+            <div class="list-task-responsible">
+                <img src="img/verantwortlich.svg"/>
+                <p>Miriam Mustermann</p>
+            </div>
+            <div class="list-task-edit">
+                <a onclick = StartTimer(event)><img src="img/bearbeiten.svg"/></a>
+            </div>
+        </li>
+
+        <li id = "2">
+            <div class="list-task-checkbox">
+                <img onclick="Delete(event)" src="img/unchecked-box.png"/>
+            </div>
+            <div class="list-task-description">
+                <p class="list-task-title">Geburtstagsgeschenk f&uuml;r Miriam besorgen</p>
+                <p class="list-task-notes">Ein gemeinsames Wein-Tasting in unserem Lieblingsladen w&uuml;nscht sie sich schon l&auml;nger.</p>
+            </div>
+            <div class="list-task-due">
+                <img src="img/faelligkeit.svg"/>
+                <label id="hours2">00</label>
+                <label id="colon1">:</label>
+                <label id="minutes2">00</label>
+                <label id="colon2">:</label>
+                <label id="seconds2">00</label>
+            </div>
+            <div class="list-task-responsible">
+                <img src="img/verantwortlich.svg"/>
+                <p>Max Mustermann</p>
+            </div>
+            <div class="list-task-edit">
+                <a onclick = StartTimer(event)><img src="img/bearbeiten.svg"/></a>
+            </div>
+        </li>
+
+        <li id = "3">
+            <div class="list-task-checkbox">
+                <img onclick="Delete(event)" src="img/unchecked-box.png"/>
+            </div>
+            <div class="list-task-description">
+                <p class="list-task-title">Altpapiertonne vor das Haus stellen</p>
+                <p class="list-task-notes">Nicht vergessen, die Tonne vom Nachbarn ebenfalls mit rauszustellen.</p>
+            </div>
+            <div class="list-task-due">
+                <img src="img/faelligkeit.svg"/>
+                <label id="hours3">00</label>
+                <label id="colon1">:</label>
+                <label id="minutes3">00</label>
+                <label id="colon2">:</label>
+                <label id="seconds3">00</label>
+            </div>
+            <div class="list-task-responsible">
+                <img src="img/verantwortlich.svg"/>
+                <p>Max Mustermann</p>
+            </div>
+            <div class="list-task-edit">
+                <a onclick = StartTimer(event)><img src="img/bearbeiten.svg"/></a>
+            </div>
+        </li>
+    </ul>
+    <script src ="./js/scripts.js"></script>
+</main>
+
+<footer>
+    <div class="fixed-width footer-area">
+        <div class="footer-element">
+            <img src="img/dhbw.png"/>
+        </div>
+        <div class="footer-element copyright">
+            <p>&copy; 2021 Web-Programmierung</p>
+        </div>
+        <div class="footer-element footer-nav">
+            <a href="impressum.html">Impressum</a>
+            <a href="datenschutz.html">Datenschutz</a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
+
