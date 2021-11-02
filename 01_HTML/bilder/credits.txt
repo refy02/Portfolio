@@ -1,0 +1,10 @@
+blog-post.jpeg: https://unsplash.com/photos/KE0nC8-58MQ
+delete-black.png: https://www.flaticon.com/free-icon/delete_565491?term=delete&page=1&position=21&page=1&position=21&related_id=565491&origin=search
+dhbw-logo.png: https://www.dhbw-vs.de/files/img/DHBW_VS_footer_logo.png
+play-black.png: https://www.flaticon.com/free-icon/play-button-arrowhead_27223?term=play&page=1&position=2&page=1&position=2&related_id=27223&origin=search
+project.png: https://www.flaticon.com/premium-icon/flowchart_3051610?term=project&page=1&position=8&page=1&position=8&related_id=3051610&origin=search
+stop-black.png: https://www.flaticon.com/free-icon/stop_727260?term=stop&page=1&position=22&page=1&position=22&related_id=727260&origin=search
+teaser_startpage.jpeg: https://unsplash.com/photos/BXOXnQ26B7o
+teaser-blog.jpeg: https://unsplash.com/photos/QL0FAxaq2z0
+watch-1-black.png: https://www.flaticon.com/free-icon/timer_2421935?term=timer&page=1&position=10&page=1&position=10&related_id=2421935&origin=search 
+watch-2.png: https://www.flaticon.com/de/kostenloses-icon/stoppuhr_2055991?term=timer&page=1&position=4&page=1&position=4&related_id=2055991&origin=search
