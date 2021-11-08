@@ -6,7 +6,7 @@
 <body>
 <header>
     <a href="index.html">
-        <img src="timetrack-logo.jpg">
+        <img src="bilder/timetrack-logo.jpg">
     </a>
     <nav>
         <a href="zeiterfassung.html">App</a>
@@ -16,18 +16,16 @@
 <main>
     <h1>Projekt anlegen</h1>
 
+    <h2>Titel</h2>
+    <p>Tragen sie hier eine kurze Zusammenfassung der Aufgabe ein.</p>
     <form>
-        <div>
-            <label for="title">Titel</label>
-            <p>Tragen Sie hier eine kurze Zusammenfassung der Aufgabe ein.</p>
-            <input id="title" type="text">
-        </div>
-        <div>
-            <label for="notes">Notizen</label>
-            <p>Tragen Sie hier optionale Notizen ein, die bei der Erledigung der Aufgabe hilfreich sein
-                k&ouml;nnten.</p>
-            <input id="notes" type="text">
-        </div>
+        <input type="text">
+    </form>
+
+    <h3>Notizen</h3>
+    <p>Tragen sie hier optionale Notizen ein, die bei der Erledigung der Aufgabe hilfreich sein könnten.</p>
+    <form>
+        <input type="text">
     </form>
 
     <a href="zeiterfassung.html"><input type="button" value="Abbrechen"/></a>
@@ -35,7 +33,9 @@
 </main>
 
 <footer>
-    <img src="img/dhbw-logo.png"/>
+    <a href="https://www.dhbw-vs.de/">    
+        <img src="bilder/dhbw-logo.png"/>
+    </a>
     <p>&copy; 2021 Web-Programmierung</p>
     <a href="impressum.html">Impressum</a>
     <a href="datenschutz.html">Datenschutz</a>
