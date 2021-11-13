@@ -2,39 +2,61 @@
 <html lang="de">
 <head>
     <title>TIMETRACK</title>
+    <link rel="stylesheet" type="text/css" href="css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
 </head>
 <body>
-<header>
-    <a href="index.html">
-        <img src="bilder/timetrack-logo.jpg">
-    </a>
-    <nav>
-        <a href="zeiterfassung.html">App</a>
-        <a href="blog.html">Blog</a>
-    </nav>
-</header>
-<main>
-    <h1>Time Tracking like a Pro</h1>
-    <img src="bilder/teaser-blog.jpeg">
-    
-    <h2>Zeiterfassung</h2> 
-    <img src="bilder/watch-2.png">
-    <p>Zeiten auf Knopfdruck erfassen. &Uuml;ber die App oder den einzigartigen Magic Cube.
-    </p>
+    <header class="fixed-width">
+        <div class="header-content">
+            <a href="index.html">
+                <img src="bilder/timetrack-logo.jpg">
+            </a>
+            <nav>
+                <a href="zeiterfassung.html">App</a>
+                <a href="blog.html">Blog</a>
+            </nav>
+        </div>
+    </header>
 
-    <h3>Projektmanagement</h3> 
-    <img src="bilder/project.png">
-    <p>Verwaltung von Projekten und automatischer &Uuml;bertrag der erfassten Zeiten auf die Projekte.
-    </p>
-</main>
+    <main class="fixed-width">
+        <div class="teaser">
+            <h1>Time Tracking like a Pro</h1>
+            <img src="bilder/teaser_startpage.jpeg">
+        </div>
 
-<footer>
-    <a href="https://www.dhbw-vs.de/">    
-        <img src="bilder/dhbw-logo.png"/>
-    </a>
-    <p>&copy; 2021 Web-Programmierung</p>
-    <a href="impressum.html">Impressum</a>
-    <a href="datenschutz.html">Datenschutz</a>
-</footer>
+        <div class="features">
+            <div class="feature">
+                <div class="feature-main">
+                    <img src="bilder/watch-2.png">
+                    <p class="feature-title">Zeiterfassung</p>
+                </div>
+                <p class="feature-description">Zeiten auf Knopfdruck erfassen. &Uuml;ber die App oder den einzigartigen Magic Cube.</p>
+            </div>
+            <div class="feature">
+                <div class="feature-main">
+                    <img src="bilder/project.png">
+                    <p class="feature-title">Projektmanagement</p>
+                </div>
+                <p class="feature-description">Verwaltung von Projekten und automatischer &Uuml;bertrag der erfassten Zeiten auf die Projekte.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="fixed-width">
+        <div class="footer-content">
+            <div class="footer-element">
+                <a href="https://www.dhbw-vs.de/">    
+                    <img src="bilder/dhbw-logo.png"/>
+                </a>
+            </div>
+            <div class="footer-element copyright">
+                <p>&copy; 2021 Web-Programmierung</p>
+            </div>
+            <div class="footer-element footer-nav">
+                <a href="impressum.html">Impressum</a>
+                <a href="datenschutz.html">Datenschutz</a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
