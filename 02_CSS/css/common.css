@@ -1,0 +1,93 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12.5pt;
+    line-height: 150%;
+}
+
+.fixed-width {
+    width: 1000px;
+    margin: auto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-content {
+    padding: 0 50px;
+    height: 80px;
+    display: flex;
+}
+
+header a, header a img {
+    height: 50px;
+    margin: auto;
+}
+
+header nav {
+    flex-grow: 1;
+    text-align: right;
+    margin: auto;
+}
+
+header nav a {
+    margin: 0 20px;
+}
+
+header nav a:visited, header nav a:link, header nav a:hover {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #4d4d4d;
+    color: white;
+    margin-top: 20px;
+}
+
+.footer-content {
+    display: flex;
+    padding: 25px 40px 25px 50px;
+}
+
+.footer-element {
+    flex-grow: 1;
+    flex-basis: 0;
+    margin:auto;
+}
+
+.footer-nav {
+    text-align: right;
+}
+
+.footer-nav a {
+    margin: 0 10px;
+    font-size: 0.75rem;
+}
+
+.footer-nav a:link, .footer-nav a:visited, .footer-nav a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-nav a:hover {
+    text-decoration: underline;
+}
+
+footer img {
+    height: 40px;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.copyright p {
+    font-size: 0.75rem;
+}
