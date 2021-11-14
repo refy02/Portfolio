@@ -1,0 +1,21 @@
+.data-content {
+    padding: 0px 50px 30px 50px;
+}
+
+.data-content h1 {
+    font-size: 2.4em;
+}
+
+.data-content h2 {
+    font-size: 1.25em;
+}
+
+.data-content h4 {
+    font-style: italic;
+    font-size: 0.915em;
+}
+
+.data-content p, .data-content a {
+    line-height: normal;
+    font-size: 0.915em;
+}
