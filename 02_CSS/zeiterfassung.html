@@ -2,65 +2,112 @@
 <html lang="de">
 <head>
     <title>Zeiterfassung</title>
+    <link rel="stylesheet" type="text/css" href="css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="css/zeiterfassung.css"/>
 </head>
 <body>
-<header>
-    <a href="index.html">
-        <img src="bilder/timetrack-logo.jpg">
-    </a>
-    <nav>
-        <a href="zeiterfassung.html">App</a>
-        <a href="blog.html">Blog</a>
-    </nav>
-</header>
-<main>
-    <h1>Zeiten erfassen</h1>
-    <a href="anlage.html">
-        <button>Neues Projekt erstellen</button>
-    </a>
-    <ul>
-        <li>
-            <p>User-Tracking einrichten</p>
-            <p>F&uuml;r ein datengetriebenes Vorgehen ben&ouml;tigen wir fr&uuml;hzeitig die M&ouml;glichkeit, die Benutzer besser zu verstehen.</p>
-            <img src="bilder/watch-1-black.png">
-            <p>00:15:34</p>
-            <img src="bilder/delete-black.png">
-            <img src="bilder/play-black.png">
-        </li>
-        <li>
-            <p>Werbema&szlig;nahmen ergreifen</p>
-            <p>Wir sollten fr&uuml;hzeitig mit Marketing-Ma&szlig;nahmen starten. Insbesondere Werbung in sozialen Netzwerken.</p>
-            <img src="bilder/watch-1-black.png">
-            <p>00:03:12</p>
-            <img src="bilder/delete-black.png">
-            <img src="bilder/play-black.png">
-        </li>
-        <li>
-            <p>Web-Anwendungen implementieren</p>
-            <p>Grundstruktur in Form von HTML-Seiten aufbauen, mit CSS stylen und dynamisches Verhalten mit Javascript implementieren.</p>
-            <img src="bilder/watch-1-white.png">
-            <p>00:08:59</p>
-            <img src="bilder/delete-white.png">
-            <img src="bilder/stop-white.png">
-        </li>
-        <li>
-            <p>Blog-Posts erstellen</p>
-            <p>Wir sollten darauf achten, dass wir initial mindestens zwei Blog-Posts anzeigen k&ouml;nnen.</p>
-            <img src="bilder/watch-1-black.png">
-            <p>00:01:03</p>
-            <img src="bilder/delete-black.png">
-            <img src="bilder/play-black.png">
-        </li>
-    </ul>
-</main>
+    <header class="fixed-width">
+        <div class="header-content">
+            <a href="index.html">
+                <img src="bilder/timetrack-logo.jpg">
+            </a>
+            <nav>
+                <a href="zeiterfassung.html">App</a>
+                <a href="blog.html">Blog</a>
+            </nav>
+        </div>
+    </header>
 
-<footer>
-    <a href="https://www.dhbw-vs.de/">    
-        <img src="bilder/dhbw-logo.png"/>
-    </a>
-    <p>&copy; 2021 Web-Programmierung</p>
-    <a href="impressum.html">Impressum</a>
-    <a href="datenschutz.html">Datenschutz</a>
-</footer>
+    <main class="fixed-width">
+        <div class="headline">
+            <h1>Zeiten erfassen</h1>
+            <a href="projektanlage.html">
+                <button>Neues Projekt erstellen</button>
+            </a>
+        </div>
+        <ul class="list-alltracks">
+            <li>
+                <div class="list-track-description">
+                    <p class="list-track-title">User-Tracking einrichten</p>
+                    <p class="list-track-notes">F&uuml;r ein datengetriebenes Vorgehen ben&ouml;tigen wir fr&uuml;hzeitig die M&ouml;glichkeit, die Benutzer besser zu verstehen.</p>
+                </div>
+                <div class="list-track-time">
+                    <img src="bilder/watch-1-black.png">
+                    <p>00:15:34</p>
+                </div>
+                <div class="list-track-delete">
+                    <img src="bilder/delete-black.png">
+                </div>
+                <div class="list-track-control">
+                    <img src="bilder/play-black.png">
+                </div>
+            </li>
+            <li>
+                <div class="list-track-description">
+                    <p class="list-track-title">Werbema&szlig;nahmen ergreifen</p>
+                    <p class="list-track-notes">Wir sollten fr&uuml;hzeitig mit Marketing-Ma&szlig;nahmen starten. Insbesondere Werbung in sozialen Netzwerken.</p>
+                </div>
+                <div class="list-track-time">
+                    <img src="bilder/watch-1-black.png">
+                    <p>00:03:12</p>
+                </div>
+                <div class="list-track-delete">
+                    <img src="bilder/delete-black.png">
+                </div>
+                <div class="list-track-control">
+                    <img src="bilder/play-black.png">
+                </div>
+            </li>
+            <li>
+                <div class="list-track-description">
+                    <p class="list-track-title">Web-Anwendungen implementieren</p>
+                    <p class="list-track-notes">Grundstruktur in Form von HTML-Seiten aufbauen, mit CSS stylen und dynamisches Verhalten mit Javascript implementieren.</p>
+                </div>
+                <div class="list-track-time">
+                    <img src="bilder/watch-1-white.png">
+                    <p>00:08:59</p>
+                </div>
+                <div class="list-track-delete">
+                    <img src="bilder/delete-white.png">
+                </div>
+                <div class="list-track-control">
+                    <img src="bilder/stop-white.png">
+                </div>
+            </li>
+            <li>
+                <div class="list-track-description">
+                    <p class="list-track-title">Blog-Posts erstellen</p>
+                    <p class="list-track-notes">Wir sollten darauf achten, dass wir initial mindestens zwei Blog-Posts anzeigen k&ouml;nnen.</p>
+                </div>
+                <div class="list-track-time">
+                    <img src="bilder/watch-1-black.png">
+                    <p>00:01:03</p>
+                </div>
+                <div class="list-track-delete">
+                    <img src="bilder/delete-black.png">
+                </div>
+                <div class="list-track-control">
+                    <img src="bilder/play-black.png">
+                </div>
+            </li>
+        </ul>
+    </main>
+
+    <footer class="fixed-width">
+        <div class="footer-content">
+            <div class="footer-element">
+                <a href="https://www.dhbw-vs.de/">    
+                    <img src="bilder/dhbw-logo.png"/>
+                </a>
+            </div>
+            <div class="footer-element copyright">
+                <p>&copy; 2021 Web-Programmierung</p>
+            </div>
+            <div class="footer-element footer-nav">
+                <a href="impressum.html">Impressum</a>
+                <a href="datenschutz.html">Datenschutz</a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

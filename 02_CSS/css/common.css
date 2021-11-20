@@ -91,3 +91,59 @@ footer img {
 .copyright p {
     font-size: 0.75rem;
 }
+
+h1 {
+    font-size: 2.4em;
+}
+
+h2 {
+    font-size: 1.175em;
+}
+
+h4 {
+    font-style: italic;
+    font-size: 0.915em;
+}
+
+p, a {
+    line-height: normal;
+    font-size: 0.915em;
+}
+
+.content-container {
+    padding: 0px 50px 30px 50px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.teaser {
+    position: relative;
+    text-align: center;
+}
+
+.teaser h1 {
+    position: absolute;
+    left: 50px;
+    color: white;
+    font-size: 2.35rem;
+    text-align: left;
+    max-width: 300px;
+}
+
+.teaser img {
+    width: 1000px;
+    max-height: 375px;
+    object-fit: cover;
+}
+
+button {
+    padding: 7.5px 35px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border-color: black;
+    cursor: pointer;
+    font-size: 11pt;
+}
