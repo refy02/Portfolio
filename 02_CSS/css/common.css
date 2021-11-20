@@ -137,3 +137,13 @@ p, a {
     max-height: 375px;
     object-fit: cover;
 }
+
+button {
+    padding: 7.5px 35px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border-color: black;
+    cursor: pointer;
+    font-size: 11pt;
+}
