@@ -1,0 +1,44 @@
+.disabled-button {
+    background-color: inherit;
+    color: black;
+}
+
+label {
+    font-weight: bold;
+}
+
+form div {
+    margin-bottom: 30px;
+}
+
+form div p {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-style: italic;
+    font-size: 0.8rem;
+}
+
+input {
+    padding: 5px;
+    border-width: 2.5px;
+    border-radius: 5px;
+    border-color: lightgray;
+    border-style: solid;
+}
+
+.create-grp-title input {
+    width: 40%
+}
+
+.create-grp-notes input {
+    width: 100%
+}
+
+.create-grp-actions {
+    text-align: center;
+}
+
+.create-grp-actions button {
+    margin: 0 10px;
+    padding: 7.5px 55px;
+}
