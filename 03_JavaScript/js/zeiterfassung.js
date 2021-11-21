@@ -5,7 +5,7 @@
 
    var IntervalID;
 
-   function DocumentLoaded() {
+   function documentLoaded() {
        /*Function that is triggered automatically when loading zeiterfassung.html. Displays existing entries.
        
          Args: 
@@ -37,7 +37,7 @@
                    <img id = "delete${time_array[times].id}" onclick=Delete(event) src="bilder/delete-black.png">
                </div>
                <div class="list-track-control">
-               <a onclick = TimerClick(event)><img id = "play${time_array[times].id}" src="bilder/play-black.png"></a>
+               <a onclick = timerClick(event)><img id = "play${time_array[times].id}" src="bilder/play-black.png"></a>
                </div>
                `
                document.getElementById("unordered_list").append(li);
@@ -46,7 +46,7 @@
        }
    }
    
-   function TimerClick(event){
+   function timerClick(event){
        /*Starts and filters different use cases (start or stop) of play-button, when play-button is pressen. 
        
          Args:
@@ -62,11 +62,11 @@
        else{
            if (anotherTimeisRunning(id)){
                stopTimer();
-               StartTimer(event, id);
+               startTimer(event, id);
                highlight(id);
            }
            else{
-               StartTimer(event, id);
+               startTimer(event, id);
                highlight(id);
            }
        }
@@ -176,7 +176,7 @@
        return false;
    }
    
-   function StartTimer(event, id){
+   function startTimer(event, id){
        /*Starts counting-process of timer.
          
          Args:
@@ -286,7 +286,7 @@
        }
    }
    
-   function ButtonClick() {
+   function buttonClick() {
        /*Cretes new entry in timer-list with given inforamtion.
          
          Args:
