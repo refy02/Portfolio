@@ -1,0 +1,84 @@
+.headline {
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headline * {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.headline a {
+    text-align: right;
+}
+
+.list-alltracks {
+    padding: 0;
+}
+
+.list-alltracks li:nth-child(odd) {
+    background-color: lightgray;
+}
+
+/* .list-alltracks li:nth-child(3) {
+    background-color: red;               deletedby Fynn 
+    color: white;
+} */
+
+.list-alltracks li {
+    display: flex;
+    padding: 15px 25px;
+}
+
+.list-alltracks img {
+    width: 30px;
+    height: 100%;
+}
+
+.list-alltracks p {
+    margin: 0;
+}
+
+.list-alltracks div {
+    padding: 5px 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.list-track-title {
+    font-weight: bold;
+}
+
+.list-track-notes {
+    font-style: italic;
+}
+
+.list-track-delete, .list-track-control {
+    width: 4%;
+    display: flex;
+    justify-content: center;
+}
+
+.list-track-time {
+    width: 15%;
+    display: flex;
+    margin: auto;
+    font-weight: bold;
+    align-items: center; /* added by Fynn */
+}
+
+.list-track-time img {
+    width: 45px;
+}
+
+.list-track-description {
+    width: 64%;
+}
+
+.list-track-time img, .list-track-time p {
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: left;
+    padding: 0 5px;
+}

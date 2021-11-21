@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <title>TIMETRACK</title>
+    <link rel="stylesheet" type="text/css" href="css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="css/projektanlage.css"/>
+</head>
+<body>
+    <header class="fixed-width">
+        <div class="header-content">
+            <a href="index.html">
+                <img src="bilder/timetrack-logo.jpg">
+            </a>
+            <nav>
+                <a href="zeiterfassung.html">App</a>
+                <a href="blog.html">Blog</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="fixed-width">
+        <div class="content-container">
+            <h1>Projekt anlegen</h1>
+                <form>
+                    <div class="create-grp-title">
+                        <label for="title">Titel</label>
+                        <p>Tragen sie hier eine kurze Zusammenfassung des Projekts ein.</p>
+                        <input id="title" type="text">
+                    </div>
+                    <div class="create-grp-notes">
+                        <label for="notes">Notizen</label>
+                        <p>Tragen sie hier Ihre Notizen zum Projekt ein.</p>
+                        <input id="notes" type="text">
+                    </div>
+                </form>
+            <div class="create-grp-actions">
+                <a href="zeiterfassung.html"><button class="disabled-button">Abbrechen</button></a>
+                <a href="zeiterfassung.html"><button onclick=ButtonClick(event)>Projekt anlegen</button></a>
+            </div>
+        </div>
+        <script src ="./js/zeiterfassung.js"></script>
+    </main>
+
+    <footer class="fixed-width">
+        <div class="footer-content">
+            <div class="footer-element">
+                <a href="https://www.dhbw-vs.de/">    
+                    <img src="bilder/dhbw-logo.png"/>
+                </a>
+            </div>
+            <div class="footer-element copyright">
+                <p>&copy; 2021 Web-Programmierung</p>
+            </div>
+            <div class="footer-element footer-nav">
+                <a href="impressum.html">Impressum</a>
+                <a href="datenschutz.html">Datenschutz</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
