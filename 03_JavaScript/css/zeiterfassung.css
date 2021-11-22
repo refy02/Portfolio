@@ -22,7 +22,7 @@
 }
 
 /* .list-alltracks li:nth-child(3) {
-    background-color: red;               deletedby Fynn 
+    background-color: red;
     color: white;
 } */
 
@@ -65,7 +65,7 @@
     display: flex;
     margin: auto;
     font-weight: bold;
-    align-items: center; /* added by Fynn */
+    align-items: center;
 }
 
 .list-track-time img {
