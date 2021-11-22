@@ -1,4 +1,4 @@
-/* Javascript Implementation for TimeTrack.
+/* Javascript Implementation for TIMETRACK.
 
    Authors:
    Fynn Reinders <fynn.reinders@gmail.com> */
@@ -212,6 +212,9 @@
              Returns:
                None.
            */
+           var time_array = window.localStorage.getItem("Times");
+           time_array = JSON.parse(time_array);
+           
            ++totalSeconds;
            secondsLabel.innerHTML = pad(totalSeconds%60);
            minutesLabel.innerHTML = pad(parseInt(totalSeconds/60));
@@ -262,7 +265,7 @@
        return seconds;
    }
    
-   function Delete(event) { //Deletes entry from list
+   function Delete(event) { 
         /*Deletes item that has been selcted for deleting via image-click on delete-picture.
          
          Args:
@@ -278,16 +281,16 @@
        for (element in time_array){
            if (time_array[element].id == id){
                if (time_array[element].active == true){
-                   stopTimer(element); //if its a running timer set active = false before, otherwise it will go on running and be shown in the list
+                   stopTimer(element);
                }
-               time_array.splice(element, 1);
+               time_array = time_array.splice(element, 1);
            }
        window.localStorage.setItem("Times", JSON.stringify(time_array));
        }
    }
    
    function buttonClick() {
-       /*Cretes new entry in timer-list with given inforamtion.
+       /*Creates new entry in timer-list with given inforamtion.
          
          Args:
            None.
